@@ -1,0 +1,15 @@
+
+
+a {
+  color: #00B7FF;
+}
+
+body {background-color: powderblue;}
+article {border: 1px solid black;}
+section {border-left: 6px solid red; border-width: 3px; background-color: lightgrey;}
+h3 {color: red;}
+.mix {border-style: none none none solid; border-color: blue;}
+#lorem { margin: 6px; padding: 6px; border: 2px green solid; }
+.c0 {color: red;}
+.c1 {color: green;}
+.c2 {color: blue;}

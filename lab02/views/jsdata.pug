@@ -1,0 +1,26 @@
+doctype html
+html
+    head
+        style
+            include style.css
+        title lab03
+        body
+            h1=wyprawa
+            p powysłodawca wyciczki: #{imie} #{nazwisko}, urodzony #{data_ur}
+
+            p lista uczestników:
+                for przyjaciel in przyjaciele
+                    li= przyjaciel.imie
+
+
+            p przy uzyciu for
+            ul
+                for item,i in przyjaciele
+                    li(class="c"+i%3)  #{item.imie}
+
+
+
+            p plan wycieczki:
+            ul
+                li rozpoczęcie: #{pocz}
+                li zakonczenie: #{koniec}
